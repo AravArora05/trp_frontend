@@ -1,0 +1,130 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Arav Arora",
+      "intro": "Arav Arora is a second-year computer science student from Georgia Tech. He enjoys watching the Boston Celtics.",
+      "linkedin": "https://www.linkedin.com/in/arav-arora-5b5b1228b/",
+      "github": "https://github.com/AravArora05",
+      "image": "https://media.licdn.com/dms/image/D4D03AQFBdNKEWhHdiw/profile-displayphoto-shrink_400_400/0/1694206752071?e=1722470400&v=beta&t=1MGRwgywR1P0DEpVum0fVFiWL_tri1u8cbIvxNmtpz8"
+    },
+    {
+      "id": 2,
+      "name": "Moksh Shah",
+      "intro": "Moksh Shah is a second-year computer science student at Georgia Tech! He loves Bayern Munich and FC Barcelona.",
+      "linkedin": "https://www.linkedin.com/in/moksh-shah/",
+      "github": "https://github.com/mnshah0101",
+      "image": "https://media.licdn.com/dms/image/D4E03AQFGNAEy8FmTew/profile-displayphoto-shrink_200_200/0/1684209357812?e=2147483647&v=beta&t=XCN_QgsuS_au94p5FeWkRPzRjwsmjp1H2S739ZgbeS4"
+    },
+    {
+      "id": 3,
+      "name": "Viswa Subramaniam",
+      "intro": "Viswa Subramaniam attends UVA! He's into the NBA, and he loves supporting the Baltimore Ravens.",
+      "linkedin": "https://www.linkedin.com/in/viswa-subramanian/",
+      "github": "https://github.com/mnshah0101",
+      "image": "https://media.licdn.com/dms/image/D4E03AQGGLu8gVNrbdg/profile-displayphoto-shrink_400_400/0/1709001387355?e=1722470400&v=beta&t=SHlYe9d67RmS8QVyURvPP86hRCaQTQjIGKJ2RU488es"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "authorName": "Arav Arora",
+      "date": "May 25th, 2024",
+      "sport": "MLB",
+      "title": "Can Jalen Brunson continue this success in the 2024 Season? Or is he due for a down year?",
+      "imageSrc": "https://media.nbcboston.com/2023/12/Jayson-Tatum-USATSI_22173730.jpg?quality=85&strip=all&resize=320%2C180",
+      "caption": {
+        "figcaption": "An exciting game in progress during the MLB season.",
+        "creator": "John Doe",
+        "credit": "Sports Magazine"
+      },
+      "content": [
+        "<p className='articleContent'>The MLB season has been full of surprises this year. Teams are showing unexpected performances.</p>",
+        "<p className='articleContent'>Key players have been injured, affecting the dynamics of the game significantly.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?mlb1' alt='MLB Image 1' />",
+        "<p className='articleContent'>Rookies are stepping up, bringing new energy and talent to the field.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?mlb2' alt='MLB Image 2' />",
+        "<p className='articleContent'>A rookie making his mark in the MLB.</p>",
+        "<div className='articleContent'><img src='https://source.unsplash.com/random/300x200?mlb3' alt='MLB Image 3' /><img src='https://source.unsplash.com/random/300x200?mlb4' alt='MLB Image 4' /></div>",
+        "<p className='articleContent'>Statistical performance graph of MLB teams.</p>"
+      ],
+      "alt": "Image of MLB action"
+    },
+    {
+      "id": 2,
+      "authorId": 2,
+      "authorName": "Moksh Shah",
+      "date": "May 24th, 2024",
+      "sport": "Soccer",
+      "title": "Soccer League Intensity",
+      "imageSrc": "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjAyOTUwMTU0NTk5Mjc3NTgw/jalen-brunson.jpg",
+      "caption": {
+        "figcaption": "A thrilling soccer match in progress.",
+        "creator": "Jane Smith",
+        "credit": "Football Weekly"
+      },
+      "content": [
+        "<p className='articleContent'>Soccer leagues around the world are witnessing intense competition. The race for the top spots is fiercer than ever.</p>",
+        "<p className='articleContent'>Some underdog teams have shown remarkable improvement this season.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?soccer1' alt='Soccer Image 1' />",
+        "<p className='articleContent'>Star players are delivering consistent performances, keeping the fans thrilled.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?soccer2' alt='Soccer Image 2' />",
+        "<p className='articleContent'>A star player making a crucial play.</p>",
+        "<div className='articleContent'><img src='https://source.unsplash.com/random/300x200?soccer3' alt='Soccer Image 3' /><img src='https://source.unsplash.com/random/300x200?soccer4' alt='Soccer Image 4' /></div>",
+        "<p className='articleContent'>Performance analysis graph of soccer teams.</p>"
+      ],
+      "alt": "Image of soccer action"
+    },
+    {
+      "id": 3,
+      "authorId": 3,
+      "authorName": "Viswa Subramaniam",
+      "date": "May 23rd, 2024",
+      "sport": "NBA",
+      "title": "NBA Playoff Drama",
+      "imageSrc": "https://source.unsplash.com/random/300x200?nba",
+      "caption": {
+        "figcaption": "A veteran player leading his team to victory.",
+        "creator": "Mike Johnson",
+        "credit": "Basketball World"
+      },
+      "content": [
+        "<p className='articleContent'>The NBA playoffs are heating up with some unexpected twists. Teams are battling hard for a spot in the finals.</p>",
+        "<p className='articleContent'>Veteran players are showcasing their experience, leading their teams with exceptional skills.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?nba1' alt='NBA Image 1' />",
+        "<p className='articleContent'>Young talents are emerging, bringing fresh strategies to the game.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?nba2' alt='NBA Image 2' />",
+        "<p className='articleContent'>A young player making an impact in the NBA.</p>",
+        "<div className='articleContent'><img src='https://source.unsplash.com/random/300x200?nba3' alt='NBA Image 3' /><img src='https://source.unsplash.com/random/300x200?nba4' alt='NBA Image 4' /></div>",
+        "<p className='articleContent'>NBA playoff performance statistics.</p>"
+      ],
+      "alt": "Image of NBA playoff action"
+    },
+    {
+      "id": 4,
+      "authorId": 1,
+      "authorName": "Arav Arora",
+      "date": "May 22nd, 2024",
+      "sport": "NFL",
+      "title": "NFL Draft Highlights",
+      "imageSrc": "https://source.unsplash.com/random/300x200?nfl",
+      "caption": {
+        "figcaption": "Rookies training hard at the NFL camp.",
+        "creator": "Sarah Lee",
+        "credit": "Sports Illustrated"
+      },
+      "content": [
+        "<p className='articleContent'>The NFL draft has brought in new talent that teams are eager to develop. Coaches are optimistic about the fresh prospects.</p>",
+        "<p className='articleContent'>Training camps are in full swing, with rookies and veterans working hard.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?nfl1' alt='NFL Image 1' />",
+        "<p className='articleContent'>Season strategies are being fine-tuned to maximize team strengths.</p>",
+        "<img className='articleContent' src='https://source.unsplash.com/random/300x200?nfl2' alt='NFL Image 2' />",
+        "<p className='articleContent'>A rookie showcasing skills during the NFL training camp.</p>",
+        "<div className='articleContent'><img src='https://source.unsplash.com/random/300x200?nfl3' alt='NFL Image 3' /><img src='https://source.unsplash.com/random/300x200?nfl4' alt='NFL Image 4' /></div>",
+        "<p className='articleContent'>Performance analysis and predictions for the NFL season.</p>"
+      ],
+      "alt": "Image of NFL action"
+    }
+  ]
+}

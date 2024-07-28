@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+.creator {
+  font-size: 10px;
+  font-style: italic;
+  font-family: 'Curtive Mono';
+}
+
+hr {
+  border: 1.5px solid navy;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+figcaption {
+  font-family: serif;
+  font-size: 14px;
+}
+
+.site-header {
+  padding-top: 5px;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-title {
+  font-size: 2em;
+}
+
+.hr.divider {
+  border: 1.5px solid navy;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.main-nav ul.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.main-nav ul.nav-list li.nav-item {
+  margin-right: 5%;
+  padding: 5px;
+  padding-left: 0px;
+  padding-top: 8px;
+}
+
+.main-nav ul.nav-list li.nav-item a.nav-link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.article-header-container {
+  width: 60%;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+.article-header-container h2 {
+  margin-bottom: 7px;
+  font-size: 38px;
+  
+}
+.article-header-container p {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 16px;
+}
+.article-header-container p:last-of-type {
+  margin-bottom: 10px;
+}
+
+.sport {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  
+  
+  
+}
+
+img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.triangle-right {
+  display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-left: 16px solid navy;
+	border-bottom: 8px solid transparent;
+}
+.article-content {
+  
+  width: 60%;
+  margin: 0px auto;
+  padding-top: 20px;
+  
+}
+.article-content p {
+  margin-bottom: 15px;
+  font-family: Arial;
+}
+
+.article-content img {
+  border: 1.5px solid black;
+  height: auto;
+  width: 100%;
+}
+.article-content figcaption {
+  margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .site-header {
+    width: 90%;
+  }
+  .article-content {
+    width: 80%;
+  }
+  .article-header-container {
+    width: 80%;
+}
+.article-content p {
+  margin-bottom: 20px;
+}
+.article-header-container h2 {
+  font-size: 27px;
+}
+
+}
