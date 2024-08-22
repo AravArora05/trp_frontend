@@ -1,11 +1,21 @@
+import React from 'react';
 import SiteHeader from '../../../src/app/components/SiteHeader';
 import ArticleHeader from '../../../src/app/components/ArticleHeader';
 import { fetchArticles } from '../../../src/app/utils/api';
 import '../../../src/app/globals.css';
 import Footer from '@/app/components/Footer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
+import ReactMarkdown from 'react-markdown';
+import Latex from 'react-latex-next';
 
 const createSlug = (title) => {
   return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
+};
+
+const containsLatex = (content) => {
+  return content.includes('$$') || content.includes('\\(') || content.includes('\\[');
 };
 
 export default function Article({ article }) {
@@ -19,10 +29,20 @@ export default function Article({ article }) {
       <ArticleHeader article={article} />
       <div className="article-information-container">
         {article.content.map((element, index) => (
-          <div key={index} dangerouslySetInnerHTML={{ __html: element }} />
+          containsLatex(element) ? (
+            <Latex key={index}>{element}</Latex>
+          ) : (
+            <ReactMarkdown
+              key={index}
+              remarkPlugins={[remarkMath]}
+              rehypePlugins={[rehypeKatex]}
+            >
+              {element}
+            </ReactMarkdown>
+          )
         ))}
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
@@ -47,5 +67,5 @@ export async function getStaticPaths() {
     params: { id: createSlug(article.title) },
   }));
 
-  return { paths, fallback: false }; 
+  return { paths, fallback: false };
 }

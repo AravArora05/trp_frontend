@@ -3,6 +3,8 @@ import SiteHeader from '../src/app/components/SiteHeader';
 import ArticlesSection from '../src/app/components/ArticlesSection';
 import Footer from '@/app/components/Footer';
 import '../src/app/globals.css';
+import 'katex/dist/katex.min.css';
+
 
 export default function HomePage({ articles, featuredArticle }) {
   return (

@@ -1,3 +1,4 @@
+
 hr {
     border: 1.5px solid navy;
   }
@@ -15,9 +16,6 @@ hr {
   
   
   /* Fonts */
-  @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
   
   /* Header */
   .navLink1 {
